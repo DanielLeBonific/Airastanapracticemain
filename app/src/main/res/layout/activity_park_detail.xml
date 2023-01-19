@@ -11,12 +11,12 @@
 
 
     <ImageView
+        android:id="@+id/mainImage"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:adjustViewBounds="true"
         android:scaleX="1.2"
-        android:scaleY="1.2"
-        android:src="@drawable/bg_info" />
+        android:scaleY="1.2" />
 
     <LinearLayout
         android:layout_width="match_parent"

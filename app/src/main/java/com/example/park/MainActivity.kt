@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         window.decorView.apply { systemUiVisibility=
             View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN }
-        my_recycler.adapter=Adapter(setData.SetPlanets())
+        my_recycler.adapter=Adapter(setData.SetParks())
         my_recycler.layoutManager=LinearLayoutManager(this)
     }
 }

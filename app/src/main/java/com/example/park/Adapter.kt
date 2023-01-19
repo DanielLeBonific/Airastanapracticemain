@@ -41,30 +41,39 @@ class Adapter(var park: List<ParkData>) : RecyclerView.Adapter<Adapter.myViewHol
         when (park[position].title!!.toLowerCase()) {
             "bayanaul" -> {
                 dummyImage = R.drawable.ic_bayan
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "katon" -> {
                 dummyImage = R.drawable.ic_katon
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "charynsky" -> {
                 dummyImage = R.drawable.ic_charynsky
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "burabai" -> {
                 dummyImage = R.drawable.ic_burabay
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "kolsay" -> {
                 dummyImage = R.drawable.ic_kolsay
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "karkaraly" -> {
                 dummyImage = R.drawable.ic_karkar
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "ilealatau" -> {
                 dummyImage = R.drawable.ic_alatau
+                holder.parkimg.setImageResource(dummyImage!!)
             }
             "altynemel" -> {
                 dummyImage = R.drawable.ic_altyn
+                holder.parkimg.setImageResource(dummyImage!!)
             }
         }
-        holder.parkimg.setImageResource(dummyImage!!)
+
+
 
 
     }
