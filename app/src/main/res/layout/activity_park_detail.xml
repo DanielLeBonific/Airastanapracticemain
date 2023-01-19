@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_kyopalinverse"
@@ -12,39 +13,42 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/bg_info"
         android:adjustViewBounds="true"
-        android:scaleY="1.2"
         android:scaleX="1.2"
-        />
+        android:scaleY="1.2"
+        android:src="@drawable/bg_info" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-50dp"
         android:orientation="vertical">
+
         <ImageView
             android:id="@+id/park_img_info"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_gravity="center_horizontal"
             android:elevation="40dp"
-            android:src="@drawable/ic_bayan"/>
+            android:src="@drawable/ic_bayan" />
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
             android:layout_marginTop="-50dp"
+            android:layout_marginRight="15dp"
             android:backgroundTint="@color/green"
             app:cardCornerRadius="10dp"
-            app:cardElevation="10dp"
-            >
+            app:cardElevation="10dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:gravity="center_horizontal"
+                android:orientation="vertical"
                 android:paddingTop="60dp">
+
                 <TextView
                     android:id="@+id/title_info"
                     android:layout_width="wrap_content"
@@ -54,6 +58,7 @@
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/region_info"
                     android:layout_width="wrap_content"
@@ -63,6 +68,7 @@
                     android:text="Pavlodar region"
                     android:textColor="@color/subtext"
                     android:textSize="14sp" />
+
                 <View
                     android:layout_width="30dp"
                     android:layout_height="1dp"
@@ -76,10 +82,12 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_distance"/>
+                        android:src="@drawable/ic_distance" />
+
                     <TextView
                         android:id="@+id/distance_info"
                         android:layout_width="wrap_content"
@@ -89,13 +97,11 @@
                         android:text="424 km"
                         android:textColor="@color/subtext"
                         android:textSize="14sp" />
-                        />
+                    />
                 </LinearLayout>
 
 
-
             </LinearLayout>
-
 
 
         </androidx.cardview.widget.CardView>
@@ -118,17 +124,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                   android:orientation="vertical">
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_semibold"
+                    android:letterSpacing="0.1"
                     android:text="Overview"
                     android:textAllCaps="true"
-                    android:textStyle="bold"
-                    android:letterSpacing="0.1"
                     android:textColor="@color/white"
-                    />
+                    android:textStyle="bold" />
+
                 <View
                     android:layout_width="30dp"
                     android:layout_height="1dp"
@@ -146,9 +153,16 @@
                     android:lineSpacingExtra="1dp"
                     android:text="It was founded in 1985 to preserve the unique flora and fauna. The nature of the park is diverse. There are lakes, forest, steppe, mountains, meadows. There are many relict plants growing in the park, such as Bayanaul pine. And among the representatives of the fauna there is an argali listed in the Red Book. The tourist infrastructure of the park is concentrated near Lake Zhasybai and is poorly developed. Excursions to the Sacred Cave or Stone Head are popular"
                     android:textColor="@color/subtext"
-                    android:textSize="13sp"/>
-            </LinearLayout>
+                    android:textSize="13sp" />
 
+                <Button
+                    android:id="@+id/shareButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Share" />
+            </LinearLayout>
 
 
         </ScrollView>
