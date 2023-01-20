@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Park</string>
     <string name="title_activity_maps">MapsActivity</string>
+
+
+    // Bayanaul
+    <string name="bayanaulName">Bayanaul</string>
 </resources>

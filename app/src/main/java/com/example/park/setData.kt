@@ -82,8 +82,8 @@ object setData {
                 "Central",
                 "1201",
                 "130000-360000",
-                43.25309450543935,
-                76.94570592890337,
+                44.00411215288424,
+                78.83798655569119,
                 "Visiting this park is a popular weekend itinerary. The main attraction is the \"singing dunes\". These are hundred-meter sand dunes that emit a rumble audible for several kilometers. On an independent trip, you can meet the famous Przewalski horse. The archaeological site of Besshatyr is interesting. These are the tombs of kings, tombs of the VII-III centuries BC, surrounded by menhirs."
             )
         )
@@ -94,8 +94,8 @@ object setData {
                 "Karaganda region",
                 "392",
                 "88234-298032",
-                43.28335099861223,
-                77.00461564041375,
+                49.412495410748946,
+                75.46721220605878,
                 "It is located in the Karaganda region. There are many archaeological sites in the park. These are burial grounds and settlements of different eras. The remnants of a Buddhist monastery of the XVII century is the Kyzylkent Palace. There are many lakes on the territory of the park, and picturesque views open from the mountains. You can appreciate the diversity of the landscape of the park. In addition to birds and mammals, the park is home to various species of amphibians and reptiles."
             )
         )
