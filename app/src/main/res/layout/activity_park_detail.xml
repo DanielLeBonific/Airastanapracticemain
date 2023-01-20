@@ -96,7 +96,18 @@
                         android:fontFamily="@font/poppins_regular"
                         android:text="424 km"
                         android:textColor="@color/subtext"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/cost_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="3500-30000T"
+                        android:textColor="@color/subtext"
+                        android:textSize="14sp"
+                        />
                     />
                 </LinearLayout>
 

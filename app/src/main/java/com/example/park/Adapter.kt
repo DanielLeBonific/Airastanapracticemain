@@ -15,6 +15,7 @@ class Adapter(var park: List<ParkData>) : RecyclerView.Adapter<Adapter.myViewHol
         var parkimg = view.park_img
         var region = view.region
         var distance = view.distance
+        //var cost = view.cost
 
     }
 
@@ -36,6 +37,8 @@ class Adapter(var park: List<ParkData>) : RecyclerView.Adapter<Adapter.myViewHol
         holder.title.text = park[position].title
         holder.region.text = park[position].region
         holder.distance.text = park[position].distance + "km"
+        //holder.cost.text = park[position].title + "T"
+
 
 
         when (park[position].title!!.toLowerCase()) {

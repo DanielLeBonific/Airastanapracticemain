@@ -63,6 +63,7 @@ class ParkDetail : AppCompatActivity() {
     private fun setData(obj:ParkData,parkImg:Int) {
         title_info.text=obj.title
         distance_info.text=obj.distance+"km"
+        cost_info.text=obj.cost+"Т"
         overview_info.text=obj.overview
         region_info.text=obj.region
         park_img_info.setImageResource(parkImg)

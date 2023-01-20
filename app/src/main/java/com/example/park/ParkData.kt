@@ -8,6 +8,7 @@ data class ParkData(
     val title:String?,
     val region:String?,
     val distance:String?,
+    val cost:String?,
     var latitude: Double?,
     var longitude: Double?,
     val overview:String?
@@ -16,6 +17,7 @@ data class ParkData(
 
     constructor(parcel: Parcel) : this(
         parcel.readValue(Int::class.java.classLoader) as? Int,
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
@@ -30,6 +32,7 @@ data class ParkData(
         parcel.writeString(title)
         parcel.writeString(region)
         parcel.writeString(distance)
+        parcel.writeString(cost)
         latitude?.let { parcel.writeDouble(it) }
         longitude?.let { parcel.writeDouble(it) }
         parcel.writeString(overview)
